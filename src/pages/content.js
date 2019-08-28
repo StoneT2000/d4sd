@@ -173,7 +173,7 @@ export const involveContent = [
   },
   {
     title: "There are infinite ways to get involved",
-    txt: "We’ve imagined a number of ways to get involved, but we’re all about innovation so don’t feel limited! If you want to be involved in a way that isn’t listed above, we hope you will design your own role and join the action! We look forward to innovating with you and leveraging your unique talents and perspective!",
+    txt: "We suggest roles above, but we’re all about innovation so don’t feel limited! If you want to be involved in a way that isn’t listed above, we hope you will design your own role and join the action! We look forward to innovating with you and leveraging your unique talents and perspective!",
     image: question,
     id: "question",
     link: "https://forms.gle/1GzRdAVandg68rTP9",
