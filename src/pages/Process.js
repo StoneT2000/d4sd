@@ -15,6 +15,7 @@ import header from "../assets/img/process_header.svg";
 import { timelineContent } from '../assets/content.js';
 import TimelineCard from '../components/landing/TimelineCard';
 
+
 class Process extends Component {
 
   constructor() {

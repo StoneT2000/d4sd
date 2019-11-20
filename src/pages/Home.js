@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import FooterCard from '../components/landing/FooterCard';
 //CSS styles
+import { Button } from '@d4sd/components';
 import { Br, Bg } from '../assets/css/others.js';
 import { Btn, BtnSecondary, StyledButtonBack, StyledButtonNext, StyledDotGroup } from '../assets/css/buttons.js';
 import { FlexibleImg } from '../assets/css/images.js';
@@ -48,8 +49,8 @@ class Home extends Component {
             </H5>
             <Br/>
             <OuterFlexBox center>
-              <Btn href="http://eepurl.com/c2kFon" target="_blank">JOIN MAILING LIST</Btn>
-              <BtnSecondary left home top onClick={() => this.scrollToRef(this.mission)}>LEARN MORE</BtnSecondary>
+              <Button href="http://eepurl.com/c2kFon" target="_blank" size="large" type="primary">JOIN MAILING LIST</Button>
+              <Button left home top onClick={() => this.scrollToRef(this.mission)} type="primary-outline" size="large">LEARN MORE</Button>
             </OuterFlexBox>
           </InnerContainer>
         </OuterContainer>
@@ -74,7 +75,7 @@ class Home extends Component {
             </H5>
             <Br/>
             <OuterFlexBox center>
-              <Btn href="/involve">GET INVOLVED</Btn>
+              <Button href="/involve" size="large">GET INVOLVED</Button>
             </OuterFlexBox>
             <Br/>
               <OuterFlexBox>
@@ -110,7 +111,7 @@ class Home extends Component {
                       <H5 dangerouslySetInnerHTML={{ __html: sampleChallenge.txt }} />
                       <Br/>
                       <OuterFlexBox center>
-                        <Btn href="https://join.slack.com/t/d4sd/shared_invite/enQtMjExMjA5MDY0MjkzLTk3NjY4NGM3MTE0N2M1NTJjODAxMGRiMDgxNmQ4ZDk1NTU4Mzk0OThjMTdkMzc0NTJmY2M1ZmNkZDA3NTdjYTU" target="_blank">JOIN THE DISCUSSION</Btn>
+                        <Button href="https://join.slack.com/t/d4sd/shared_invite/enQtMjExMjA5MDY0MjkzLTk3NjY4NGM3MTE0N2M1NTJjODAxMGRiMDgxNmQ4ZDk1NTU4Mzk0OThjMTdkMzc0NTJmY2M1ZmNkZDA3NTdjYTU" target="_blank" size="large">JOIN THE DISCUSSION</Button>
                       </OuterFlexBox>
                   </InnerContainer>
                 </OuterContainer>
@@ -141,7 +142,7 @@ class Home extends Component {
             </H5>
             <Br/>
             <OuterFlexBox center>
-              <Btn left href="http://d4sd2017.ucsd.edu" target="_blank">SEE WHAT HAPPENED IN 2017</Btn>
+              <Button left href="http://d4sd2017.ucsd.edu" target="_blank" size="large">SEE WHAT HAPPENED IN 2017</Button>
             </OuterFlexBox>
             </InnerContainer>
             <Br/><Br/>
@@ -169,7 +170,7 @@ class Home extends Component {
             </H5>
             <Br/>
             <OuterFlexBox center>
-              <Btn left href="/involve">GET INVOLVED</Btn>
+              <Button href="/involve" size="large">GET INVOLVED</Button>
             </OuterFlexBox>
             <Br/>
 
